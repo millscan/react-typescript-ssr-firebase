@@ -1,6 +1,5 @@
 # React + Typescript Boilerplate - SSR with Firebase # 
 
-[PageSpeed Insights](docs/pagespeed.png)
 [Preview the deployed boilerplate!](https://react-typescript-firebase-ssr.web.app/)
 
 Adapted for Typescript from official Firebase docs + youtube channel:
@@ -30,3 +29,4 @@ If you fail to include a dependency your deployment will result in an error.
 
 Your Firebase project must be on the blaze plan. If it is on the spark plan, you'll get an error on deployment
 
+![PageSpeed Insights](https://github.com/millscan/react-typescript-ssr-firebase/blob/main/docs/pagespeed.png?raw=true)
