@@ -14,7 +14,7 @@ function App(props: { facts: Fact[] }) {
           onMouseLeave={() => setHovered(false)}
           src='assets/logo.png'
           style={{
-            height: '200px',
+            height: '120px',
             filter: `blur(${hovered ? 2 : 0}px)`,
             transition: 'filter 333ms',
           }}

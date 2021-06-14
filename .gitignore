@@ -59,6 +59,13 @@ node_modules/
 # Output of 'npm pack'
 *.tgz
 
+#build files
+public/bundle.js
+public/bundle.js.LICENSE.txt
+public/bundle.js.map
+functions/src
+functions/index.js
+
 # Yarn Integrity file
 .yarn-integrity
 
