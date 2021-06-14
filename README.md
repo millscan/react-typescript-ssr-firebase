@@ -16,7 +16,7 @@ Server is located in index.tsx in the root directory.
 ## Deployment: ##
 0. log into firebase if you have not already (firebase login)
 1. cd into functions folder and run *yarn* (or *npm i*)
-2. cd back to root directory run *yarn build* (or *npm run build*) to compile client and server code into firebase directory
+2. cd back to root directory run *yarn build* (or *npm run build*) to compile client and server code into firebase functions directory
 3. change default project in firebase.json to your firebase project ID
 4. run *yarn serve* (or *npm run serve*) to test SSR locally
 5. run *yarn deploy* (or *npm run deploy*) to deploy to Firebase
