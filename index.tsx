@@ -28,7 +28,7 @@ app.get('**', (req, res) => {
               props
             )}</script><script type="text/javascript" src="bundle.js"></script>`
           )
-          .replace('<!-- ::APP:: --->', html)
+          .replace('<div id="root"></div>', `<div id="root">${html}</div>`)
         res.set('Cache-Control', 'public, max-age=600, s-maxage=1200')
         res.send(finalHtml)
       })
